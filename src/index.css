@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark,.dark *));
+
+@theme {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-accent: var(--brand-accent);
+  --color-bg-default: var(--bg-default);
+  --color-bg-paper: var(--bg-paper);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  :root {
+    --brand-primary: #15803d;
+    --brand-secondary: #052e16;
+    --brand-accent: #f59e0b;
+    --bg-default: #f3f4f6;
+    --bg-paper: #ffffff;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+  }
+
+ .dark {
+    --brand-primary: #22c55e;
+    --brand-secondary: #14532d;
+    --brand-accent: #fbbf24;
+    --bg-default: #0f172a;
+    --bg-paper: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+  }
+
+  body {
+    @apply bg-bg-default text-text-primary transition-colors duration-300 antialiased;
+  }
+  
+  @keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+  .animate-shimmer {
+    animation: shimmer 2s infinite;
+  }
+
+  .bg-grid-pattern {
+    background-image: radial-gradient(var(--color-text-secondary) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: linear-gradient(to bottom, transparent, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 10%, black 40%, black 70%, transparent 90%);
+  }
+}
+
