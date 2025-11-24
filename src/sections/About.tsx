@@ -12,7 +12,7 @@ export function About() {
             Traga sua ideia e nossa engenharia executa.
           </p>
           <a 
-            href="https://wa.me/5538999999999" 
+            href="https://wa.me/5538999633303" 
             target="_blank"
             className="inline-flex items-center gap-2 bg-brand-accent hover:bg-amber-400 text-brand-secondary px-8 py-4 rounded-lg font-bold text-lg transition-colors"
           >
