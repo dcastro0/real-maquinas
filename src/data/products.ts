@@ -51,7 +51,7 @@ export const products: Product[] = [
     title: "Porteira de Fazenda Reforçada",
     description: "Porteira tubular metálica, leve para manuseio e resistente para contenção.",
     category: "estruturas",
-    imageUrl: "https://images.unsplash.com/photo-1464693657404-7c2055a98eb5?auto=format&fit=crop&w=800&q=80",
+    imageUrl: porteira,
     specs: {
       largura: "3m, 4m ou 5m",
       pintura: "Eletrostática",
