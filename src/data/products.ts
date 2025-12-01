@@ -1,4 +1,5 @@
 import type { Product } from "../types";
+import forrageira from "../assets/forrageira.jpg"
 
 export const products: Product[] = [
   {
@@ -6,7 +7,7 @@ export const products: Product[] = [
     title: "Siladeira Real 5000",
     description: "Equipamento de alta performance para corte de cana, capim e sorgo. Ideal para trato diário.",
     category: "agricola",
-    imageUrl: "https://images.unsplash.com/photo-1592885784909-8a4d600df38b?auto=format&fit=crop&w=800&q=80",
+    imageUrl: "../assets/siladeira-real.png",
     badge: "Mais Vendido",
     specs: {
       potencia: "10cv a 15cv",
@@ -19,7 +20,7 @@ export const products: Product[] = [
     title: "Forrageira Robusta",
     description: "Triturador forrageiro para moagem de grãos secos e produtos verdes.",
     category: "agricola",
-    imageUrl: "https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=800&q=80",
+    imageUrl: forrageira,
     badge: "Pronta Entrega",
     specs: {
       motor: "Elétrico 5cv",
