@@ -5,6 +5,7 @@ import siladeiraReal from "../assets/siladeira-real.png"
 import flutuante from "../assets/flutuante.jpg"
 import cocheira from "../assets/cocheira.png"
 import caixa from "../assets/caixa.jpg"
+import porteira from "../assets/porteira.jpg"
 
 export const products: Product[] = [
   {
