@@ -1,7 +1,7 @@
 import type { Product } from "../types";
 import forrageira from "../assets/forrageira.jpg"
 import balsa from "../assets/balsa.jpg"
-import siladeira-real from "../assets/siladeira-real.png"
+import siladeiraReal from "../assets/siladeira-real.png"
 import flutuante from "../assets/flutuante.jpg"
 import cocheira from "../assets/cocheira.png"
 import caixa from "../assets/caixa.jpg"
@@ -12,7 +12,7 @@ export const products: Product[] = [
     title: "Siladeira Real 5000",
     description: "Equipamento de alta performance para corte de cana, capim e sorgo. Ideal para trato diário.",
     category: "agricola",
-    imageUrl: siladeira-real,
+    imageUrl: siladeiraReal,
     badge: "Mais Vendido",
     specs: {
       potencia: "10cv a 15cv",
