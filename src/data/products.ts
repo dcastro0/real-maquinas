@@ -1,5 +1,10 @@
 import type { Product } from "../types";
 import forrageira from "../assets/forrageira.jpg"
+import balsa from "../assets/balsa.jpg"
+import siladeira-real from "../assets/siladeira-real.png"
+import flutuante from "../assets/flutuante.jpg"
+import cocheira from "../assets/cocheira.png"
+import caixa from "../assets/caixa.jpg"
 
 export const products: Product[] = [
   {
@@ -7,7 +12,7 @@ export const products: Product[] = [
     title: "Siladeira Real 5000",
     description: "Equipamento de alta performance para corte de cana, capim e sorgo. Ideal para trato diário.",
     category: "agricola",
-    imageUrl: "../assets/siladeira-real.png",
+    imageUrl: siladeira-real,
     badge: "Mais Vendido",
     specs: {
       potencia: "10cv a 15cv",
@@ -33,7 +38,7 @@ export const products: Product[] = [
     title: "Cocheira Modular de Ferro",
     description: "Estrutura em aço galvanizado para confinamento de gado e equinos. Alta durabilidade contra corrosão.",
     category: "estruturas",
-    imageUrl: "https://images.unsplash.com/photo-1544638814-18054e616882?auto=format&fit=crop&w=800&q=80",
+    imageUrl: cocheira,
     specs: {
       material: "Aço Galvanizado",
       modulo: "3m x 3m",
@@ -57,7 +62,7 @@ export const products: Product[] = [
     title: "Caixa d'Água Metálica Tipo Taça",
     description: "Reservatório metálico ideal para propriedades rurais com necessidade de pressão de água.",
     category: "estruturas",
-    imageUrl: "https://images.unsplash.com/photo-1542843570-07d5d1935406?auto=format&fit=crop&w=800&q=80",
+    imageUrl: caixa,
     specs: {
       capacidade: "5.000L a 50.000L",
       coluna: "Seca ou Cheia",
@@ -69,7 +74,7 @@ export const products: Product[] = [
     title: "Balsa Flutuante de Carga",
     description: "Plataforma naval certificada para transporte de maquinário agrícola e gado em rios.",
     category: "nautico",
-    imageUrl: "https://images.unsplash.com/photo-1566633806327-68e152aaf26d?auto=format&fit=crop&w=800&q=80",
+    imageUrl: balsa,
     specs: {
       comprimento: "10m a 30m",
       convés: "Chapa Antiderrapante",
@@ -81,7 +86,7 @@ export const products: Product[] = [
     title: "Flutuante para Lazer/Pesca",
     description: "Estrutura flutuante estável para ranchos, pescaria ou suporte de bombas de captação.",
     category: "nautico",
-    imageUrl: "https://images.unsplash.com/photo-1595549023583-37c876eb98d4?auto=format&fit=crop&w=800&q=80",
+    imageUrl: flutuante,
     specs: {
       tambores: "Plástico ou Metal",
       piso: "Madeira Tratada ou Aço",
